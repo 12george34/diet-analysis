@@ -1,0 +1,37 @@
+# Azure Functions local settings (contains secrets)
+local.settings.json
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+
+# Azure Functions build files
+.python_packages/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/cache files
+.pytest_cache/
+
+# Logs
+*.log
+
+# Generated files
+output/
